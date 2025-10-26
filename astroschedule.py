@@ -5,7 +5,7 @@ import os
 import pytz  # for timezone-aware "now"
 
 # === CONFIG ===
-FEED_URL = "https://your.wheniwork.ical.url"  # Replace with your iCal URL
+FEED_URL = "https://app.wheniwork.com/calendar/eacbe0bafebc48a265b8114af6998a69c2c4cb0c.ics"  # Replace with your iCal URL
 OLD_FILE_PATH = "calendar_old.ics"
 MERGED_FILE_PATH = "calendar_merged.ics"
 LOCAL_TZ = pytz.timezone("America/New_York")  # Replace with your timezone
@@ -74,3 +74,4 @@ def update_calendar():
 
 if __name__ == "__main__":
     update_calendar()
+
